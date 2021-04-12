@@ -5,9 +5,6 @@ html, body, #app {
 
 #app {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
 }
 
 .box {
@@ -15,4 +12,19 @@ html, body, #app {
   height: 60px;
   background-color: tomato;
   margin: 5px;
+}
+
+.red {
+  background-color: tomato;
+  order: 1;
+}
+
+.green {
+  background-color: rgb(77, 255, 71);
+  order: 2;
+}
+
+.blue {
+  background-color: rgb(83, 71, 255);
+  order: 0;
 }
