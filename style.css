@@ -1,0 +1,15 @@
+html, body, #app {
+  margin: 0;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: tomato;
+  margin: 5px;
+}
