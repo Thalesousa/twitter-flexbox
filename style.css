@@ -5,13 +5,14 @@ html, body, #app {
 
 #app {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .box {
-  width: 800px;
+  width: 200px;
   height: 60px;
   background-color: tomato;
   margin: 5px;
-  flex: 1;
 }
