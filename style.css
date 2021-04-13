@@ -186,3 +186,107 @@ header#main-header div.side button {
   border-radius: 16px;
   margin-right: 20px;
 }
+
+.wrapper-content {
+  display: flex;
+}
+
+.wrapper-content .profile{
+  width: 260px;
+}
+
+.wrapper-content .profile img.avatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -130px;
+}
+
+.wrapper-content .profile h1{
+  font-size: 21px;
+  color: #1f2226;
+}
+
+.wrapper-content .profile span{
+  font-size: 14px;
+  color: #53626c;
+}
+
+.wrapper-content .profile p{
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 15px;
+}
+
+
+.wrapper-content .profile ul{
+  list-style: none;
+  margin-top: 20px;
+}
+
+.wrapper-content .profile li {
+  font-size: 14px;
+  color: #657786;
+
+  display: flex;
+  align-items: center;
+
+}
+
+.wrapper-content .profile li+li {
+  margin-top: 5px;
+}
+
+.wrapper-content .profile li img{
+  margin-right: 10px;
+}
+
+.wrapper-content .profile .widget{
+  margin-top: 20px;
+}
+
+.wrapper-content .profile .widget strong{
+  font-weight: normal;
+  color: #3bb9e3;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-content .profile .widget strong img{
+  margin-right: 5px;
+}
+
+.wrapper-content .profile .followers ul{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.wrapper-content .profile .followers ul li{
+  margin: 0;
+  width: 48px;
+  height: 48px;
+  background-color: #d0d5d9;
+  border-radius: 50%;
+  flex-grow: 1;
+}
+
+
+.wrapper-content .profile .images ul{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.wrapper-content .profile .images ul li{
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  background-color: #d0d5d9;
+  border-radius: 8px;
+  flex-grow: 1;
+}
